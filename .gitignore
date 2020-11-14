@@ -1,0 +1,27 @@
+# staticCoverage reports.
+coverage_html_report
+
+# Environment variables.
+.environment_variables
+.dev_environment_variables
+
+# IDEs.
+.idea
+.DS_Store
+.coverage
+
+# Virtual environments.
+venv/
+
+# Django.
+static
+db.sqlite3
+
+# Python
+*.py[cod]
+*.pyc
+__pycache__
+
+# dredd
+report.html
+
